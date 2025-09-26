@@ -1,6 +1,7 @@
 ﻿# Portfolio Disandu Rodrigo
 
  ```bash
-   https://disandurodrigo.github.io/Portfolio/
+  https://github.com/DisanduRodrigo/My-Portfolio
    ```
+
 
