@@ -21,8 +21,8 @@
     <nav class="navbar">
       <a href="#home">Home</a>
       <a href="#education">Education</a>
-      <!-- <a href="#services">Services</a> -->
-      <a href="#websites">Websites</a>
+      <a href="#services">Services</a>
+      <!-- <a href="#websites">Websites</a> -->
       <a href="#testimonials">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -172,46 +172,85 @@
     </div>
   </section>
 
-  <!-- <section class="services" id="services">
-    <h2 class="heading">Services</h2>
+<section class="services" id="services">
+  <h2 class="services-heading"><span class="white">My</span> <span class="teal">Services</span></h2>
 
-    <div class="services-container">
-      <div class="service-box">
-        <div class="service-info">
-          <h4>Web Development</h4>
-          <p>
-            I provide tailored web development services, creating responsive, user-friendly websites and applications.
-            Specializing in front-end and back-end development, I deliver secure, scalable solutions, including
-            e-commerce and custom functionality. I collaborate closely with clients to ensure impactful digital
-            experiences that meet their goals and drive succes
-          </p>
-        </div>
+  <div class="services-container">
+    <article class="service-card">
+      <div class="service-left">
+        <i class="bx bxl-react"></i>
       </div>
-
-      <div class="service-box">
-        <div class="service-info">
-          <h4>App Development</h4>
-          <p>
-           Step into the future with bespoke mobile applications tailored to your unique needs. Leveraging the latest
-            technologies and design principles, I transform your ideas into intuitive and engaging mobile experiences 
-            that captivate audiences and drive business growth.
-          </p>
-        </div>
+      <div class="service-right">
+        <h4>Frontend Web Experiences</h4>
+        <p>Crafting modern, responsive websites using React and Next.js — focused on clean design, intuitive navigation, and a smooth user experience across all devices.</p>
       </div>
-    </div>
-  </section> -->
+    </article>
 
-  <section class="websites" id="websites">
+    <article class="service-card">
+      <div class="service-left">
+        <i class="bx bxl-nodejs"></i>
+      </div>
+      <div class="service-right">
+        <h4>Backend Systems &amp; Architecture</h4>
+        <p>Building secure, high-performance backends using Java (Spring Boot) and Node.js — handling data, user management, and the core logic that powers your app.</p>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-left">
+        <i class="bx bx-mobile-alt"></i>
+      </div>
+      <div class="service-right">
+        <h4>Cross-Platform Mobile Apps</h4>
+        <p>Designing mobile apps that run beautifully on Android and iOS using React Native and native Android tools — with fast performance and user-friendly interfaces.</p>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-left">
+        <i class="bx bx-chip"></i>
+      </div>
+      <div class="service-right">
+        <h4>Smart IoT Solutions</h4>
+        <p>Creating connected systems with ESP32 and Arduino — bringing sensors, devices, and automation together for smart homes, agriculture, or industrial use.</p>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-left">
+        <i class="bx bxs-server"></i>
+      </div>
+      <div class="service-right">
+        <h4>Data &amp; Database Management</h4>
+        <p>Designing scalable databases with MySQL, PostgreSQL, and Firebase — ensuring fast access, data integrity, and seamless integration.</p>
+      </div>
+    </article>
+
+    <article class="service-card">
+      <div class="service-left">
+        <i class="bx bx-link-alt"></i>
+      </div>
+      <div class="service-right">
+        <h4>API Design &amp; Integration</h4>
+        <p>Developing robust APIs and integrating third-party services — enabling smooth data flow between frontend, backend, and external platforms.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+  <!-- <section class="websites" id="websites">
     <div class="websites-box">
       <h2 class="heading"><span>MY</span> Websites</h2>
       <div class="websites-wrapper" id="websitesList">
         <script>
           // Array of website details
           const websites = [
-            { name: "PetLife", img: "./petlife.png", url: "https://www.pet-lifes.com/" },
-            { name: "Video Downloader", img: "./videoDownloader.png", url: "https://videodownloaderv2-9gvseiqgr-udithavithanages-projects.vercel.app/" },
-            { name: "VCU Calculators", img: "./VCUCal.png", url: "https://calculators-peach.vercel.app/" },
-            { name: "We See You", img: "./VCU.png", url: "https://udithavithanage.vercel.app/" }
+           
+            { name: "DrodXAuctionBid", img: "./DrodXAuctionBid.png", url: "https://github.com/DisanduRodrigo/DrodXAuctionBid" },
+            { name: "DrodXJava", img: "./DrodXJava.png", url: "https://github.com/DisanduRodrigo/DrodXJava" },
+            { name: "DrodXStore", img: "./DrodXStore.png", url: "https://github.com/DisanduRodrigo/DrodXStore" },
+            { name: "DrodX-Fashion", img: "./DrodX-Fashion.jpg", url: "https://github.com/DisanduRodrigo/DrodX-Fashion" }
           ];
 
           // Generate and insert website items dynamically
@@ -228,7 +267,7 @@
         </script>
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 <section class="testimonials" id="testimonials">
@@ -281,13 +320,7 @@
               </td>
             </tr>
 
-            <tr>
-              <td><strong>UI Frameworks</strong></td>
-              <td>
-                <img src="https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white" alt="Bootstrap" loading="lazy" />
-                <!-- Add Tailwind or others here if you want -->
-              </td>
-            </tr>
+          
 
             <tr>
               <td><strong>Other</strong></td>
@@ -343,9 +376,9 @@
       <li>
         <a href="#">FAQ</a>
       </li>
-      <!-- <li>
+      <li>
         <a href="#">Services</a>
-      </li> -->
+      </li>
       <li>
         <a href="#">About Me</a>
       </li>
